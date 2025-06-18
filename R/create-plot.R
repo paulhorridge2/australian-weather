@@ -5,6 +5,7 @@ library("tidyverse")
 # Read in the data
 ggplot theme
 theme_minimal()
+facet_wrap(~WindDir9am)
 
 df = read_csv("data/weatherAUS.csv")
 
