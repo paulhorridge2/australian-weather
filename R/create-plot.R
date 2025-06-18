@@ -3,6 +3,8 @@
 library("tidyverse")
 
 # Read in the data
+ggplot theme
+theme_minimal()
 
 df = read_csv("data/weatherAUS.csv")
 
